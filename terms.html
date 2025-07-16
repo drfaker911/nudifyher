@@ -5,68 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Terms & Conditions – DrFaker</title>
 
-  <style>
-    /* Main extracted theme CSS, simplified */
-    body {
-      font-family: 'Open Sans', sans-serif;
-      margin: 0; padding: 0; background: #fff; color: #333;
-    }
-    .container {
-      width: 90%; max-width: 1200px; margin: 0 auto;
-    }
-    .site-header {
-      background: #fff;
-      border-bottom: 1px solid #ddd;
-      padding: 15px 0;
-    }
-    .site-branding img {
-      height: 50px;
-    }
-    .main-navigation ul {
-      list-style: none;
-      margin: 0; padding: 0; display: flex; gap: 15px;
-    }
-    .main-navigation ul li a {
-      color: #d00;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .main-navigation ul li a[aria-current="page"] {
-      font-weight: 700;
-      text-decoration: underline;
-    }
-    .page-title {
-      font-weight: 700;
-      font-size: 2rem;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-      color: #d00;
-    }
-    .entry-content p {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-    .site-footer {
-      background: #f5f5f5;
-      padding: 15px 0;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #666;
-      margin-top: 3rem;
-    }
-  </style>
-
+  <!-- Link to live site CSS assets -->
+  <link rel="stylesheet" href="https://drfaker.com/wp-content/themes/betterhealth/style.css" />
+  <link rel="stylesheet" href="https://drfaker.com/wp-content/themes/betterhealth/css/responsive.css" />
+  
+  <!-- Google Fonts as used by your site -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
 </head>
 <body>
-  <header class="site-header">
+
+  <!-- Header (copied from live site) -->
+  <header id="masthead" class="site-header" role="banner">
     <div class="container">
       <div class="site-branding">
         <a href="https://drfaker.com" rel="home">
           <img src="https://drfaker.com/wp-content/uploads/2023/03/logo.png" alt="DrFaker logo" />
         </a>
       </div>
-      <nav class="main-navigation">
+      <nav id="site-navigation" class="main-navigation" role="navigation">
         <ul>
           <li><a href="https://drfaker.com/">Home</a></li>
           <li><a href="https://drfaker.com/examples">Examples</a></li>
@@ -79,20 +35,25 @@
     </div>
   </header>
 
-  <main class="container">
-    <h1 class="page-title">Terms &amp; Conditions</h1>
-    <div class="entry-content">
-      <p>[Insert your Terms & Conditions content here.]</p>
+  <!-- Main content -->
+  <main id="content" class="site-content">
+    <div class="container">
+      <h1 class="page-title">Terms &amp; Conditions</h1>
+      <div class="entry-content">
+        <p>[Insert your Terms & Conditions content here.]</p>
+      </div>
     </div>
   </main>
 
-  <footer class="site-footer">
-    &copy; 2025 DrFaker. All Rights Reserved.
+  <!-- Footer (simplified from live site) -->
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="site-info">&copy; 2025 DrFaker. All Rights Reserved.</div>
+    </div>
   </footer>
 
-  <script>
-    // Minimal JS for navigation if needed (can be expanded)
-    // Currently empty because basic nav works without JS.
-  </script>
+  <!-- JS from live site -->
+  <script src="https://drfaker.com/wp-content/themes/betterhealth/js/navigation.js"></script>
+  <script src="https://drfaker.com/wp-content/themes/betterhealth/js/skip-link-focus-fix.js"></script>
 </body>
 </html>
